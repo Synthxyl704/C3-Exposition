@@ -9,15 +9,15 @@ Use (these) command(s):
 ```
 yay -S c3c-git
 ```
-or -
+or:
 ```
 paru -S c3c-git
 ```
-or -
+or:
 ``` 
 aura -A c3c-git
 ```
-Decide as per your AUR package manager, or you want to be a bit more advanced do -
+Decide as per your AUR package manager, or you want to be a bit more advanced do:
 ```
 git clone https://aur.archlinux.org/c3c-git.git
 cd c3c-git
