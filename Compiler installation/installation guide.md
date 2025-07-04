@@ -17,17 +17,12 @@ or
 ```
 aura -A c3c-git
 ```
-Or as per required by your AUR package manager.
-
-# Running your first C3 codefile!
-Run the following commands:
-
+Decide as per your AUR package manager, or you want to be a bit more advanced do
 ```
-mkdir C3 && cd C3
-nvim src.c3
+git clone https://aur.archlinux.org/c3c-git.git
+cd c3c-git
+makepkg -si
 ```
-
-Feel free to replace the `src` with your own relevant required filename as well, although do keep the extension the same as `.c3` as it is not liable for changes.\
 
 <hr>
 
