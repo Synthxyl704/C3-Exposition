@@ -9,19 +9,34 @@ Use (these) command(s):
 ```
 yay -S c3c-git
 ```
-or
+or -
 ```
 paru -S c3c-git
 ```
-or
-```
+or -
+``` 
 aura -A c3c-git
 ```
-Decide as per your AUR package manager, or you want to be a bit more advanced do
+Decide as per your AUR package manager, or you want to be a bit more advanced do -
 ```
 git clone https://aur.archlinux.org/c3c-git.git
 cd c3c-git
 makepkg -si
+```
+
+Good, now check if it has been REALLY installed!
+```
+c3c --version
+```
+
+And that should return you relationally this:
+```
+C3 Compiler Version:       <compiler_version_here>
+Installed directory:       /directory/of/user/c3c/
+Git Hash:                  <cryptic_omnious_line_of_text>
+Backends:                  LLVM
+LLVM version:              17.0.6
+LLVM default target:       x86_64-pc-linux-gnu
 ```
 
 <hr>
