@@ -27,6 +27,8 @@ mkdir C3 && cd C3
 nvim src.c3
 ```
 
-Feel free to replace the `src` with your own relevant required filename as well, although do keep the extension the same as `.c3` as it is not liable for changes.
+Feel free to replace the `src` with your own relevant required filename as well, although do keep the extension the same as `.c3` as it is not liable for changes.\
+
+<hr>
 
 ## [Official C3 installation guide for other distributions, Windows and MacOS](https://c3-lang.org/getting-started/prebuilt-binaries/#installing-on-windows)
