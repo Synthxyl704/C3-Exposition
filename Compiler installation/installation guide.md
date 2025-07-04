@@ -9,11 +9,11 @@ Use (these) command(s):
 ```
 yay -S c3c-git
 ```
-or,
+or
 ```
 paru -S c3c-git
 ```
-or, 
+or
 ```
 aura -A c3c-git
 ```
