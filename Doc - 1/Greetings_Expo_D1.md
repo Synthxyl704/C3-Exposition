@@ -2,7 +2,7 @@ In Greetings.c3, we see the basic fundamental structure of the C3 language.
 
 ## Modules
 `modules` in C3 are essentially big chunks of units which "encapsulates" programming related functions, classes, and data. <br>
-In the code `Greetings.c3` we are not using any build or make files, so we have imported our `filename` as our module for comprehension. <br>
+In the code `Greetings.c3` we are not using any build or make files, so we have imported our `filename` as our module for comprehension. <br> <br>
 `module greetings` <br>
 Yes, you have to keep it all lowercase, if you did not adhere to this rule, the compiler will throw out an error:
 ```
