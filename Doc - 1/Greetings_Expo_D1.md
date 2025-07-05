@@ -6,7 +6,7 @@ In Greetings.c3, we see the basic fundamental structure of the C3 language.
 `modules` in C3 are essentially big chunks of units of code which "encapsulates" programming related functions, classes, and data. <br><br>
 In the code `Greetings.c3` we are not using any build or make files, so we have imported our `filename` as our module for comprehension. <br> <br>
 `module greetings` <br>
-> ! [!NOTE]
+> [!NOTE]
 > Yes, you have to keep it all lowercase, if you did/do not adhere to this rule, the compiler will throw out an error:
 > ```
 > Error: A module name may not have any uppercase characters, trailing, leading or double '_'
@@ -29,7 +29,7 @@ In C3: <br>
 
 ## fn void main()
 Now you might be asking, <b>what is fn?</b><br>
-`fn` stands for "function" and it is a keyword declaring a function `main()` with return type `void`.<br><br>
+`fn` stands for "function" and it is a keyword declaring a function `main()` with return type `void` since we dont really return anything.<br><br>
 We will learn more about datatypes soon in our next documents as we go on!<br>
 
 ## io::printfn("Greetings fellers.");
