@@ -1,5 +1,7 @@
 In Greetings.c3, we see the basic fundamental structure of the C3 language.
 
+<hr>
+
 ## Modules
 `modules` in C3 are essentially big chunks of units of code which "encapsulates" programming related functions, classes, and data. <br><br>
 In the code `Greetings.c3` we are not using any build or make files, so we have imported our `filename` as our module for comprehension. <br> <br>
@@ -36,4 +38,5 @@ What is it doing? <br>
 `::` seperates the function `printfn()` from its parent module `std::io` and it looks inside the `std::io` module for a function declared as `printfn()` <br>
 `io::printfn("Greetings fellers.");` is a basic `print` statement which prints whatever is inside `" ... "` to the console/terminal. <br>
 
+<hr> 
 ### Now that you have learnt the basic structure and terminology of a fundamental C3 program, try adding more `io::printfn()` statements which print your name, a number, and other stuff you like!
