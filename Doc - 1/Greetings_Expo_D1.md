@@ -25,9 +25,9 @@ In C3: <br>
 -> parentheses are resposible for correctly declaring `functions` fn, inside `( ... )` you have what is called as "function parameters" <br>
 
 ## fn void main()
-Now you might be asking, <b>what is fn?</b>
-`fn` stands for "function" and it is declaring a function `main()` with return type `void`.
-We will learn more about datatypes soon in our next documents as we go on!
+Now you might be asking, <b>what is fn?</b><br>
+`fn` stands for "function" and it is declaring a function `main()` with return type `void`.<br><br>
+We will learn more about datatypes soon in our next documents as we go on!<br>
 
 ## io::printfn("Greetings fellers.");
 Woah, what is that weird `io::printfn` syntax? <br>
