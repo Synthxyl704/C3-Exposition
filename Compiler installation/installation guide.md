@@ -1,5 +1,5 @@
 > [!NOTE]
-> This is targetted towards linux users who use arch based distributions.
+> This is targetted towards linux users who use arch based distributions. <br>
 > Support for Windows, MacOS and other distros will be added sooner or later.
 
 # New to C3?
@@ -24,7 +24,7 @@ cd c3c-git
 makepkg -si
 ```
 
-Good, now check if it has been REALLY installed!
+Good, now check if it has been REALLY installed by running this command:
 ```
 c3c --version
 ```
@@ -41,4 +41,4 @@ LLVM default target:       x86_64-pc-linux-gnu
 
 <hr>
 
-## [Official C3 installation guide for other distributions, Windows and MacOS](https://c3-lang.org/getting-started/prebuilt-binaries/#installing-on-windows)
+### [Official C3 installation guide for other distributions, Windows and MacOS](https://c3-lang.org/getting-started/prebuilt-binaries/#installing-on-windows)
