@@ -33,9 +33,9 @@ We will learn more about datatypes soon in our next documents as we go on!<br>
 
 ## io::printfn("Greetings fellers.");
 Woah, what is that weird `io::printfn` syntax? <br>
-`::` you see in `io::printfn` in C3 is called as "module seperation operator" (in C++, `::` stands for "scope resolution operator") <br>
+`::` in `io::printfn` in C3 is called as "module seperation operator" (in C++, `::` stands for "scope resolution operator") <br>
 What is it doing? <br>
-`::` seperates the function `printfn()` from its parent module `std::io` and it looks inside the `std::io` module for a function declared as `printfn()` <br>
+`::` or a module seperation operator here seperates the function `printfn()` from its parent module `std::io` and it looks inside the `std::io` module for a function declared as `printfn()` <br>
 `io::printfn("Greetings fellers.");` is a basic `print` statement which prints whatever is inside `" ... "` to the console/terminal. <br>
 
 <hr> 
