@@ -24,7 +24,7 @@ Where `std::io` stands for "standard input/output" modules, so that we can acces
 ## Compound statements, semicolons, and parentheses
 In C3: <br>
 -> Compound statements are a series of lines of code that execute <b>sequentially</b>, they are inside curly braces `{ ... }` <br>
--> Semicolons are "code line enders" which tell the compiler that "yo bro this line of code ends here with my presence of existence" <br>
+-> Semicolons are "code line enders/terminators" which tell the compiler that "yo bro this line of code ends here with my presence of existence" <br>
 -> parentheses are resposible for correctly declaring `functions` fn, inside `( ... )` you have what is called as "function parameters" <br>
 
 ## fn void main()
