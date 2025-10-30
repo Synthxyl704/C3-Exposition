@@ -19,6 +19,10 @@ c3c compile this.c3
 ./this
 ```
 
+> [!NOTE]
+> `./` is the shell construct for linking the path to the executable in CURRENT directory and makes a syscall to the kernel to execute something like `execve()`.
+> The C3C compiler uses LLVM to generate an Intermediate Representation (IR) to produce an object <program>.o file(s) which is linked altogether with a linker (eg. GNU linker `ld` or `ldd` in linux systems).
+
 # Essential compiler and debugger stuff
 - The main compiler for C3 language is aka `c3c`, it is written in the C language and is built using Low Level Virtual Machine (LLVM).
 - C3 does not come with a pre-existing debugger for its language other than syntax errors, you have to link GDB or LLDB for debugging.
