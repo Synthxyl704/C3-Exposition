@@ -28,13 +28,22 @@ In C3: <br>
 -> Semicolons are "code line enders/terminators" which tell the compiler that "yo bro this line of code ends here with my presence of existence" <br>
 -> parentheses are resposible for correctly declaring `functions` fn, inside `( ... )` you have what is called as "function parameters" <br>
 
-## fn void main()
+## fn void main(String[] args)
 Now you might be asking, <b>what is fn?</b><br>
 `fn` stands for "function" and it is a keyword declaring a function `main()` with return type `void` since we dont really return anything.<br><br>
 We will learn more about datatypes soon in our next documents as we go on!<br>
+`main(String[] args)` as you may know, `main()` is the impertinent function which runs actual command-line code, its aka "entry point" of a program in technical terms - `(String[] args)` is the `main()` function's parameter which takes an ARRAY of strings, i.e multiple strings.
 
+> [!NOTE]
+> It is not mandatory to write the `main();` function with `String[] args` as parameters, they are optional and may skip it if you do not have anything to do with command line arguments.
+> ```
+>./greetings argument_1 argument_2 ${...} argument_n
+> ```
+> Here, `arguemnt_1` is the first argument, `argument_2` is the second argument, and so on until `argument_n` as per requirement parsed.
+
+<br>
 ## io::printfn("Greetings fellers.");
-Woah, what is that weird `io::printfn` syntax? <br>
+Woah, what is that weird `io::printfn` syntax? <br><br>
 `::` in `io::printfn` in C3 is called as "module seperation operator" (in C++, `::` stands for "scope resolution operator") <br>
 What is it doing? <br>
 `::` or a module seperation operator here seperates the function `printfn()` from its parent module `std::io` and it looks inside the `std::io` module for a function declared as `printfn()` <br>
