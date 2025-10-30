@@ -35,11 +35,12 @@ We will learn more about datatypes soon in our next documents as we go on!<br>
 `main(String[] args)` as you may know, `main()` is the impertinent function which runs actual command-line code, its aka "entry point" of a program in technical terms - `(String[] args)` is the `main()` function's parameter which takes an ARRAY of strings, i.e multiple strings.
 
 > [!NOTE]
-> It is not mandatory to write the `main();` function with `String[] args` as parameters, they are optional and may skip it if you do not have anything to do with command line arguments.
+> It is not mandatory to write the `main();` function with `String[] args` as parameters, they are optional and you may skip it if you do not have anything to do with command line arguments.
 > ```
 >./greetings argument_1 argument_2 ${...} argument_n
 > ```
-> Here, `arguemnt_1` is the first argument, `argument_2` is the second argument, and so on until `argument_n` as per requirement parsed.
+> Here, `argument` is the first argument, `argument_2` is the second argument, and so on until `argument_n` as per requirement parsed.
+> Arrays[] start from zero as the first index, so arg[0] is essentially the `./<program_executable_name>` followed by the consecutive parsed command-line arguments <br>
 
 <br>
 ## io::printfn("Greetings fellers.");
