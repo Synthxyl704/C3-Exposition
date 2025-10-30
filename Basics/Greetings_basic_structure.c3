@@ -1,5 +1,6 @@
+module greetings;
 import std::io;
 
-fn void main() {
+fn void main(String[] args) {
   io::printfn("Greetings fellers.");
 }
