@@ -18,5 +18,5 @@ c3c compile this.c3
 ```
 
 # Essential compiler and debugger stuff
-- The main compiler for C3 language is aka `c3c`, it is written in C and is built using an LLVM.
+- The main compiler for C3 language is aka `c3c`, it is written in the C language and is built using Low Level Virtual Machine (LLVM).
 - C3 does not come with a pre-existing debugger for its language other than syntax errors, you have to link GDB or LLDB for debugging.
