@@ -20,7 +20,7 @@ c3c compile this.c3
 ```
 
 > [!NOTE]
-> `./` is the shell construct for linking the path to the executable in CURRENT directory and makes a syscall to the kernel to execute something like `execve()`.
+> `./` is the shell construct for linking the path to the executable in CURRENT directory and makes a syscall to the kernel to execute something like `execve()`. <br>
 > The C3C compiler uses LLVM to generate an Intermediate Representation (IR) to produce an object <program>.o file(s) which is linked altogether with a linker (eg. GNU linker `ld` or `ldd` in linux systems).
 
 # Essential compiler and debugger stuff
