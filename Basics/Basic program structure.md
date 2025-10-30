@@ -19,7 +19,8 @@ In the code, we write:
 ```
 import std::io
 ```
-Where `std::io` stands for "standard input/output" modules, so that we can access them within our .c3 program!
+Where `std::io` stands for "standard input/output" modules, so that we can access them within our .c3 program! <br>
+The "I" in "Import" being capital kinda caught me off-gaurd lmao.
 
 ## Compound statements, semicolons, and parentheses
 In C3: <br>
