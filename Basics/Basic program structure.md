@@ -8,7 +8,7 @@ fn void main(String[] args) {
 }
 ```
 
-<br> <hr> <br>
+<hr> 
 
 In Greetings.c3, we see the basic fundamental structure of the C3 language.
 
