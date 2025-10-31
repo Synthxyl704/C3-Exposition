@@ -1,3 +1,15 @@
+## Suppose a .C3 file named `greetings.c3` with the following code:
+```c
+module greetings;
+import std::io;
+
+fn void main(String[] args) {
+  io::printfn("Greetings fellers.");
+}
+```
+
+<br> <hr> <br>
+
 In Greetings.c3, we see the basic fundamental structure of the C3 language.
 
 <hr>
