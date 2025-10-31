@@ -54,6 +54,7 @@ We will learn more about datatypes soon in our next documents as we go on!<br>
 > Arrays[] start from zero as the first index, so arg[0] is essentially the `./<program_executable_name>` followed by the consecutive parsed command-line arguments <br>
 
 <br>
+
 ## io::printfn("Greetings fellers."); <br>
 Woah, what is that weird `io::printfn` syntax? <br><br>
 `::` in `io::printfn` in C3 is called as "module seperation operator" (in C++, `::` stands for "scope resolution operator") <br>
