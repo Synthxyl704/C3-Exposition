@@ -93,7 +93,7 @@ fn int main(String[] argv) {
 <br> 
 
 > [!NOTE]
-> Wanna learn about this on lower level? <br>
+> Wanna learn about this on lower level? <br> <br>
 > When you execute `./<executable>`, it starts up 3 standard file descriptors (SFD or FD) which are special to the OS for I/O operations (channels). <br>
 > These file descriptors are namely these (UNIX philosophy foundation, their **C** definitons are given below) - <br>
 > - Standard Input (stdin) - The **Stream** for acceptng & holding inputted text by user in terminal / console via keyboard, etc. <br>
@@ -102,8 +102,6 @@ fn int main(String[] argv) {
 > <br>
 > I will repeat, these are C standard definitions and mostly almost all programmers are familiar with these terminologies. <br>
 > They are concepts, the terms provide a compatibility layer for the underlying mechanism of how it is implemented in that OS by the kernel.
-
-<br>
 
 ### Using C3's intrinsic std::io functions
 ```c
