@@ -35,8 +35,8 @@ C3 Compiler Version:       <compiler_version_here>
 Installed directory:       /directory/of/user/c3c/
 Git Hash:                  <cryptic_omnious_line_of_text>
 Backends:                  LLVM
-LLVM version:              17.0.6
-LLVM default target:       x86_64-pc-linux-gnu
+LLVM version:              <LLVM_version>
+LLVM default target:       (x86_64) <target_machine_OS>
 ```
 
 <hr>
