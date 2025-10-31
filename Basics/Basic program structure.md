@@ -8,9 +8,8 @@ fn void main(String[] args) {
 }
 ```
 
-<hr> 
 
-In Greetings.c3, we see the basic fundamental structure of the C3 language.
+Here, in Greetings.c3, we see the basic fundamental structure of the C3 language!
 
 <hr>
 
