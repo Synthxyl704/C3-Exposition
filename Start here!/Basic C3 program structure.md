@@ -93,11 +93,24 @@ fn int main(String[] argv) {
 <br> 
 
 > [!NOTE]
-> Wanna learn about this on lower level?
-> When you execute `./<executable>`, it starts up 3 standard file descriptors which are special to the OS for I/O operations (channels).
+> Wanna learn about this on lower level? <br>
+> When you execute `./<executable>`, it starts up 3 standard file descriptors (SFD or FD) which are special to the OS for I/O operations (channels). <br>
+> These file descriptors are namely these (UNIX philosophy foundation, their **C** definitons are given below) - <br>
+> - Standard Input (stdin) - The **Stream** for acceptng & holding inputted text by user in terminal / console via keyboard, etc. <br>
+> - Standard Output (stdout) - **Stream** for outputting content to the terminal / console for the user to read. (`print<>()` uses this)
+> - Standard Error (stderr) - A dedicated **error stream** for error printing if / for any by the program to the terminal. <br>
+> I will repeat, these are C standard definitions and mostly almost all programmers are familiar with these terminologies. <br>
+> They are concepts, the terms provide a compatibility layer for the underlying mechanism of how it is implemented in that OS by the kernel.
+
+<br>
 
 ### Using C3's intrinsic std::io functions
-<dinner break - will add content soon>
+```c
+  std::io::print("prints whatever is inside the parameter braces, no intrinsic escape sequence {\n} and do not support format specifiers"); 
+  std::io::printn("prints whatever but appends a newline escape sequence{\n}, doesnt support format specifiers");
+  std::io::printf("supports format %s but no intrinsic {\n} \n", "specifiers"); // supports format specifiers
+  std::io::printfn("same as printf() but appends a newline escape sequence {\n} intrinsically"); // also supports format specifiers
+```
 
 <hr>
 
