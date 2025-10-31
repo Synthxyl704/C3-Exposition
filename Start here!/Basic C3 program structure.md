@@ -65,4 +65,40 @@ We can also write its longhand eqiuivalent in this way - `std::io::printfn("Gree
 
 <hr> 
 
+## more about the - `std::io:print<>()` - aka "print function variants" exposition <br>
+### Using macros <br>
+```c
+import std::io;
+import libc; // requisite import for libc::abort()
+
+macro @__stringify__(#str) {
+    if (!#str) {
+      abort($stringify(#str));
+    } 
+
+    io::printfn (
+      // "%s", $stringify(#str) // io::printfn("%s", "x");
+      "[VALUE _ %s] = %s", $stringify(#str), #str
+    );
+}
+
+fn int main(String[] argv) {
+  String strToParse = "string_content_inside_variable";
+  @__stringify__("string_content"); // prints the content as it is
+  @__stringify__(strToParse); // prints the content with variable acknowledgement
+
+  return 0;
+}
+```
+<br> 
+
+> [!NOTE]
+> Wanna learn about this on lower level?
+> When you execute `./<executable>`, it starts up 3 standard file descriptors which are special to the OS for I/O operations (channels).
+
+### Using C3's intrinsic std::io functions
+<dinner break - will add content soon>
+
+<hr>
+
 ### Now that you have learnt the basic structure and terminology of a fundamental C3 program, try adding more `io::printfn()` statements which print your name, a number, and other stuff you like!
