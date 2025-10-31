@@ -99,6 +99,7 @@ fn int main(String[] argv) {
 > - Standard Input (stdin) - The **Stream** for acceptng & holding inputted text by user in terminal / console via keyboard, etc. <br>
 > - Standard Output (stdout) - **Stream** for outputting content to the terminal / console for the user to read. (`print<>()` uses this)
 > - Standard Error (stderr) - A dedicated **error stream** for error printing if / for any by the program to the terminal. <br>
+> <br>
 > I will repeat, these are C standard definitions and mostly almost all programmers are familiar with these terminologies. <br>
 > They are concepts, the terms provide a compatibility layer for the underlying mechanism of how it is implemented in that OS by the kernel.
 
