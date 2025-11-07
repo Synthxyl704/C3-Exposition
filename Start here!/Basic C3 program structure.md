@@ -28,10 +28,11 @@ In the code `Greetings.c3` we are not using any build or make files, so we have 
 
 In the code, we write:
 ```
-import std::io
+import std::io;
 ```
-Where `std::io` stands for "standard input/output" modules, so that we can access them within our .c3 program! <br>
-The "I" in "Import" being capital kinda caught me off-gaurd lmao.
+Where `std::io` stands for "standard input/output" modules, so that we can access them within our `.c3` program! <br>
+The `::` is aka a module seperation operator, more about it just in a minute. <br>
+SN: The "I" in "Import" being capital kinda caught me off-gaurd lmao.
 
 ## Compound statements, semicolons, and parentheses
 In C3: <br>
