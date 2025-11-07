@@ -4,9 +4,9 @@ and structure with a simple singular command. <br>
 <hr>
 
 > [!NOTE]
-> It is NOT mandatory for using this awesome feature, you can initialize or create structures on your own volition as per requirement. <br>
+> It is NOT mandatory for using this awesome feature, you can initialize or create structures on your own volition as per requirement. <br> <br>
 > Practically however it is encouraged (at least by me, if youre a beginner) that you do test this out at the very least. <br>
-> Pros of this feature include that there are commands which automate your compilation, and modularized structure stores executables in a seperate `build` directory, etc. <br>
+> Pros of this feature include that there are commands which automate your compilation, and modularized structure stores executables in a seperate `build` directory, etc. <br> <br>
 > More of such will be explained further in this `.md`, keep reading. <br>
 
 Follwing this `.md`, you will <br>
