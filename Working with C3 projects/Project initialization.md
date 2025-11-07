@@ -14,7 +14,6 @@ Follwing this `.md`, you will
 - understand the boilerplate structure and its working - like how everything connects and works      <br>
 - understand `build` files, how to execute from build directory and other fun (but also very useful) low-level, information I researched! <br> 
 <hr>
-<br>
 
 ## Commands for initializing a project
 The term for making a project is what I will technically be referring to as `initialization`, the commands overview is given below in short for those in haste. <br>
@@ -42,5 +41,4 @@ cd C3_Project
 > ``` 
 > The root build directory containing project.json could not be found. Did you use the correct directory?
 > ```
-> <br> <br>
 > This is explained by the fact that project compilation commands like `c3c run` depend on files like `project.json` which contains the necessary data for a successful `c3c run` compilation, I will explain the necessary terms inside there soon, keep going.
