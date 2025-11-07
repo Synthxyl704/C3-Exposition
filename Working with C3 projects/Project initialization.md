@@ -38,10 +38,9 @@ cd C3_Project
 ```
 
 > [!WARNING]
-> Running compilation processing commands outside of (that) project directory will NOT work, instead you will see.
+> Running compilation processing commands outside of (that) project directory will NOT work, instead you will see:
 > ``` 
 > The root build directory containing project.json could not be found. Did you use the correct directory?
 > ```
-> 
-> <br>
-> This is explained by the fact that project compilation commands like `c3c run` depend on files like `project.json` which contains the necessary data for a successful `c3c run` compilation.
+> <br> <br>
+> This is explained by the fact that project compilation commands like `c3c run` depend on files like `project.json` which contains the necessary data for a successful `c3c run` compilation, I will explain the necessary terms inside there soon, keep going.
