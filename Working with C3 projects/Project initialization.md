@@ -48,22 +48,12 @@ Well yeah, and they're all mostly empty except `src` and `build`, the directory 
 <br>
 | Directory | Exposition |
 |------------------|--------|
-| `/build/` | Remember that `C3` is a compiled language, this directory will contain the build artifacts (anything relational to code compilation) such as object files, translation units, intermediate outputs, the final executable, etc. will be stored here. <be> The `c3c run` command employs a linker which connects all source code files `.c3`s and forms a final executable. |
-
-| `/docs/` | Code documentation. |
-
-| `/lib/` | C3 libraries (with the `.c3l` suffix). |
-
-| `/resources/` | Non-code resources like images, sound effects, etc. |
-
-| `/scripts/` | Scripts, including `.c3` scripts that generate code at compile time. |
-
-| `/src/` | Stores your code; by default contains `main.c3` with “Hello World”. |
-
-| `project.json` | Records project information, similar to `package.json` in NodeJS. |
-
-| `LICENSE` | Project license. |
-
-
-| `README.md` | Helps others understand and use your code. |
-
+| `/build/` | Remember that `C3` is a compiled language, this directory will contain the build artifacts (anything relational to code compilation) such as object files, translation units, intermediate outputs, the final executable, etc. will be stored here. <be> The `c3c run` command employs a linker which connects all source code files `.c3`s and forms a final executable ((in) binary code). |
+| `/docs/` | For every project you make, it is a good habit to "document" what the program does, libraries exposition, errors and debugging warnings, etc. In this directory you will do exactly that. |
+| `/lib/` | C3 allows programmers to write header files in the form of libraries, they are `.c3l` files, you may use this for code modularization (ie. seperating/isolating functional code for abstraction/ecapsulation purposes, etc.) |
+| `/resources/` |  Contains any files that aren't the source code but your program needs them, example - sound effects, graphics, images, configuration files, etc. |
+| `/scripts/` | May contain your own scripts for automation, but also mainly includes `.c3` code files which are used as cripts during compile-time codegen. |
+| `/src/` | Your (main) source code is stored here; default structure contains `main.c3` with code that prints "Hello, World!". You are obviously free to add more or delete the current and make/modify your own. |
+| `project.json` | Very important, contains controls about build automation, executable path, optimization controls, etc. <br> Official documentation notates it as "similar to `package.json` in NodeJS". |
+| `LICENSE` | Project license for source code usage protection rights, plagiarism is pretty common these days you know? I cannot explain this one much though, sorry. |
+| `README.md` | Self explanatory, this is your program's `README.md` which your users will see for reading about what your project is and how they may replicate it on their machine or how they will install dependencies, run the code, etc. |
