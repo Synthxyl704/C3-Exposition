@@ -29,7 +29,7 @@ So the final command will be in the form of `c3c init <program_name>`: <br>
 ```
 c3c init C3_Project
 ```
-And you should see something like `Project 'C3_Project' created.` signalling the confirmation of the project directory initialization, good job!. <br>
+And you should see something like `Project 'C3_Project' created.` indicing/signalling the confirmation of the project directory initialization. <br>
 <br>
 Now, we will `cd` (Change the Directory) into the project with the following command:
 ```
@@ -41,4 +41,20 @@ cd C3_Project
 > ``` 
 > The root build directory containing project.json could not be found. Did you use the correct directory?
 > ```
-> This is explained by the fact that project compilation commands like `c3c run` depend on files like `project.json` which contains the necessary data for a successful `c3c run` compilation, I will explain the necessary terms inside there soon, keep going.
+> This is explained by the fact that project compilation commands like `c3c run` depend on files like `project.json` which contains the necessary data for a successful `c3c run` compilation, I will explain the necessary data-terms inside there soon, keep going.
+
+## Woah, are'nt there so many files in here?
+Well yeah, and they're all mostly empty except `src` and `build`, the directory (of the project you just initialized) will also have other files as of `v1.0.0` listed below:
+<br>
+| Directory | Exposition |
+|------------------|--------|
+| `/build/` | Remember that `C3` is a compiled language, this directory will contain the build artifacts (anything relational to code compilation) such as object files, translation units, intermediate outputs, the final executable, etc. will be stored here. The `c3c run` command links the executable |
+| `/docs/` | Code documentation. |
+| `/lib/` | C3 libraries (with the `.c3l` suffix). |
+| `/resources/` | Non-code resources like images, sound effects, etc. |
+| `/scripts/` | Scripts, including `.c3` scripts that generate code at compile time. |
+| `/src/` | Stores your code; by default contains `main.c3` with “Hello World”. |
+| `project.json` | Records project information, similar to `package.json` in NodeJS. |
+| `LICENSE` | Project license. |
+| `README.md` | Helps others understand and use your code. |
+
