@@ -48,13 +48,22 @@ Well yeah, and they're all mostly empty except `src` and `build`, the directory 
 <br>
 | Directory | Exposition |
 |------------------|--------|
-| `/build/` | Remember that `C3` is a compiled language, this directory will contain the build artifacts (anything relational to code compilation) such as object files, translation units, intermediate outputs, the final executable, etc. will be stored here. The `c3c run` command links the executable |
+| `/build/` | Remember that `C3` is a compiled language, this directory will contain the build artifacts (anything relational to code compilation) such as object files, translation units, intermediate outputs, the final executable, etc. will be stored here. <be> The `c3c run` command employs a linker which connects all source code files `.c3`s and forms a final executable. |
+
 | `/docs/` | Code documentation. |
+
 | `/lib/` | C3 libraries (with the `.c3l` suffix). |
+
 | `/resources/` | Non-code resources like images, sound effects, etc. |
+
 | `/scripts/` | Scripts, including `.c3` scripts that generate code at compile time. |
+
 | `/src/` | Stores your code; by default contains `main.c3` with “Hello World”. |
+
 | `project.json` | Records project information, similar to `package.json` in NodeJS. |
+
 | `LICENSE` | Project license. |
+
+
 | `README.md` | Helps others understand and use your code. |
 
