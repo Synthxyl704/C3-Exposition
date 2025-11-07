@@ -50,7 +50,7 @@ Well yeah, and they're all mostly empty except `src` and `build`, the directory 
 |------------------|--------|
 | `/build/` | Remember that `C3` is a compiled language, this directory will contain the build artifacts (anything relational to code compilation) such as object files, translation units, intermediate outputs, the final executable, etc. will be stored here. <be> The `c3c run` command employs a linker which connects all source code files `.c3`s and forms a final executable ((in) binary code). |
 | `/docs/` | For every project you make, it is a good habit to "document" what the program does, libraries exposition, errors and debugging warnings, etc. In this directory you will do exactly that. |
-| `/lib/` | C3 allows programmers to write header files in the form of libraries, they are `.c3l` files, you may use this for code modularization (ie. seperating/isolating functional code for abstraction/ecapsulation purposes, etc.) |
+| `/lib/` | C3 allows programmers to write header files in the form of libraries (SUBJECT TO THEORETICAL CHANGE SOON), they are `.c3l` files, you may use this for code modularization (ie. seperating/isolating functional code for abstraction/ecapsulation purposes, etc.) |
 | `/resources/` |  Contains any files that aren't the source code but your program needs them, example - sound effects, graphics, images, configuration files, etc. |
 | `/scripts/` | May contain your own scripts for automation, but also mainly includes `.c3` code files which are used as cripts during compile-time codegen. |
 | `/src/` | Your (main) source code is stored here; default structure contains `main.c3` with code that prints "Hello, World!". You are obviously free to add more or delete the current and make/modify your own. |
