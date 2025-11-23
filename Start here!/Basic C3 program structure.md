@@ -97,9 +97,9 @@ fn int main(String[] argv) {
 > Wanna learn about this on lower level? <br> <br>
 > When you execute `./<executable>`, it starts up 3 standard file descriptors (SFD or FD) which are special to the OS for I/O operations (channels). <br>
 > ```
-> A [stream] is an abstract representation/notation of a **sequence of data** that can be read from or conversely, written to (unless its a special stream of course)
+> A [stream] is an abstract representation/notation of a **sequence of data** that can be read from
+> or conversely, written to (unless its a special stream of course)
 > ```
-> <br>
 > These file descriptors are namely these (UNIX philosophy foundation, their **C** definitons are given below) - <br>
 > - Standard Input (stdin) - The **Stream** for acceptng & holding inputted text by user in terminal / console via keyboard, etc. <br>
 > - Standard Output (stdout) - **Stream** for outputting content to the terminal / console for the user to read. (`print<>()` uses this)
