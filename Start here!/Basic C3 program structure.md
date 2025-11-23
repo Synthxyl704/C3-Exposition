@@ -110,8 +110,8 @@ fn int main(String[] argv) {
 
 ### Using C3's intrinsic std::io functions
 ```c
-  std::io::print("prints whatever is inside the parameter braces, no intrinsic escape sequence {\n} and do not support format specifiers"); 
-  std::io::printn("prints whatever but appends a newline escape sequence{\n}, doesnt support format specifiers");
+  std::io::print("prints whatever is inside the parameter braces, no intrinsic escape sequence {\n} and does not support format specifiers"); 
+  std::io::printn("prints whatever but appends a newline escape sequence{\n}, does not support format specifiers");
   std::io::printf("supports format %s but no intrinsic {\n} \n", "specifiers"); // supports format specifiers
   std::io::printfn("same as printf() but appends a newline escape sequence {\n} intrinsically"); // also supports format specifiers
 ```
