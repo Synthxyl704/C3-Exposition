@@ -52,7 +52,7 @@ We will learn more about datatypes soon in our next documents as we go on!<br>
 >./greetings argument_1 argument_2 ${...} argument_n
 > ```
 > Here, `argument` is the first argument, `argument_2` is the second argument, and so on until `argument_n` as per requirement parsed.
-> Arrays[] start from zero as the first index, so arg[0] is essentially the `./<program_executable_name>` followed by the consecutive parsed command-line arguments <br>
+> Arrays[] start from zero as the first index, so arg[0] is essentially the `./<program_executable_name>` followed by the consecutive parsed command-line arguments. <br>
 
 <br>
 
@@ -96,6 +96,7 @@ fn int main(String[] argv) {
 > [!NOTE]
 > Wanna learn about this on lower level? <br> <br>
 > When you execute `./<executable>`, it starts up 3 standard file descriptors (SFD or FD) which are special to the OS for I/O operations (channels). <br>
+> `A [stream] is an abstract representation/notation of a **sequence of data** that can be read from or conversely, written to (unless its a special stream of course)`
 > These file descriptors are namely these (UNIX philosophy foundation, their **C** definitons are given below) - <br>
 > - Standard Input (stdin) - The **Stream** for acceptng & holding inputted text by user in terminal / console via keyboard, etc. <br>
 > - Standard Output (stdout) - **Stream** for outputting content to the terminal / console for the user to read. (`print<>()` uses this)
